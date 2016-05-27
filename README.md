@@ -3,8 +3,19 @@
 and analysis by managing your recurrences.
 
 ## Dependencies
+**[NodeJS v4.2.2](https://nodejs.org/)** and **npm**.
+
+**Npm** is installed with NodeJS. It does not require a separate installation.
+It's possible to 
+[update npm](https://docs.npmjs.com/getting-started/installing-node) 
+separately, if you need to.
 
 ## Installation
+`git clone git@github.com:Benxamin/remembrall.git`
+
+`cd remembrall`
+
+`npm install`
 
 ## Tests
 
