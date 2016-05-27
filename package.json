@@ -1,0 +1,26 @@
+{
+  "name": "remembrall",
+  "version": "0.0.1",
+  "description": "time based journal",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Benxamin/remembrall.git"
+  },
+  "keywords": [
+    "memory",
+    "tickler",
+    "remember",
+    "journal",
+    "recur"
+  ],
+  "author": "Benjamin Bertrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benxamin/remembrall/issues"
+  },
+  "homepage": "https://github.com/Benxamin/remembrall#readme"
+}
