@@ -25,6 +25,28 @@ separately, if you need to.
 
 ## Contact
 
+## Documentation
+API in Nodejs by Hapi.js
+
+## Tickler Schema in PostgreSQL
+### Table: Logs
+`log_id:serial, user_id:int, created:timestamp, fact:varchar(64), detail:varchar(128), recurrence_id:int, alarm_id:int, updated:timestamp`
+
+### Table: Recurrences
+`recurrence_id:serial, recurrence_type:varchar(64), user_id:int`
+
+### Table: Alarms
+`alarm_id:serial, alarm_type:varchar(64), user_id:int`
+
+### Table: Users
+`user_id:serial, first_name:varchar(32), last_name:varchar(32), email:varchar(128), phone:varchar(32), device_id:int, plan_id:int`
+
+### Table: Devices
+`device_id:serial, device_name:varchar(32), device_detail:varchar(128)`
+
+### Table: Plans
+`plan_id:serial, plan_type:varchar(128)`
+
 ## License
 Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported 
 ([CC BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/))
