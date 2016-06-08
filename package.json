@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Benxamin/remembrall/issues"
   },
-  "homepage": "https://github.com/Benxamin/remembrall#readme"
+  "homepage": "https://github.com/Benxamin/remembrall#readme",
+  "dependencies": {
+    "mongodb": "^2.1.21"
+  }
 }
