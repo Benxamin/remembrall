@@ -28,7 +28,9 @@ separately, if you need to.
 ## Documentation
 API in Nodejs by Hapi.js
 
-## Tickler Schema in PostgreSQL
+## Schema in PostgreSQL
+I went through and created a data model for an application called "Tickler". This is based on old-school journalists tickler file.
+
 ### Table: Logs
 `log_id:serial, user_id:int, created:timestamp, fact:varchar(64), detail:varchar(128), recurrence_id:int, alarm_id:int, updated:timestamp`
 
